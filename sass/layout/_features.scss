@@ -4,10 +4,13 @@
 }
 
 .features-list {
+  @extend %feature_team_title-text-color;
   display: flex;
 }
-.feature-list-item:not(:last-child) {
-  margin-right: 30px;
+.feature-list-item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .icon {
   display: flex;
@@ -25,6 +28,7 @@
 }
 .title {
   /*margin-top: 30px;*/
+  @extend %feature_team_title-text-color;
   margin-bottom: 10px;
   font-style: normal;
   font-weight: 700;
@@ -36,7 +40,7 @@
 .titel-item {
   margin-top: 0;
   margin-bottom: 0;
-  color: var(--title-text-color);
+  color: $title-text-color;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;

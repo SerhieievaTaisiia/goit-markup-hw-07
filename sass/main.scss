@@ -1,8 +1,18 @@
 @import "./utils/variables";
-@import "./componenets/page-header";
-@import "./componenets/hero";
-@import "./componenets/features";
+@import "./utils/placeholder";
+@import "./utils/mixins";
+@import "./base/base";
+@import "./componenets/conteiner";
 @import "./componenets/modal";
-@import "./componenets/works";
-@import "./componenets/team";
-@import "./componenets/clients";
+@import "./componenets/general";
+
+@import "./layout/page-header";
+@import "./layout/hero";
+@import "./layout/features";
+@import "./layout/works";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
+
+@import "./layout/portfolio-filter";
+@import "./layout/works-portfolio";

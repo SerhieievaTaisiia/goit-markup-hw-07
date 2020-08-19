@@ -3,7 +3,7 @@
   padding-bottom: 94px;
 }
 .section-title {
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   margin-top: 0;
   margin-bottom: 50px;
   font-style: normal;
@@ -16,11 +16,12 @@
 .works-list {
   display: flex;
 }
+
 .works-list-items {
   position: relative;
-}
-.works-list-items:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .overlay {
   display: flex;
@@ -41,5 +42,5 @@
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-bg-color);
+  color: $primary-bg-color;
 }
