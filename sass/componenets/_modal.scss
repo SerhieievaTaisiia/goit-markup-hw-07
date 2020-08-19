@@ -181,7 +181,7 @@
   &:checked + .checkbox-label {
     &::before {
       background-color: $accent-color;
-      background-image: url(../../img/icon-checkbox.svg);
+      background-image: url(../img/icon-checkbox.svg);
       background-size: contain;
       border-color: $accent-color;
       background-origin: border-box;
@@ -213,7 +213,7 @@
   background-color: transparent;
   outline: none;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-image: url(../../img/close-button.svg);
+  background-image: url(../img/close-button.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
