@@ -4,14 +4,13 @@
   padding-bottom: 94px;
 }
 .section-title {
-  @include fonts($fw, $fs, $lh);
   color: $primary-text-color;
   margin-top: 0;
   margin-bottom: 50px;
   font-style: normal;
-  /*font-weight: 700;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;*/
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -30,27 +29,25 @@
   }
 }
 .title-name {
-  @include fonts($fw, $fs, $lh);
   margin-top: 0;
   margin-bottom: 10px;
   padding-top: 30px;
   text-align: center;
   font-style: normal;
-  /*font-weight: 500;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.2;*/
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
 .titel-item-position {
-  @include fonts($fw, $fs, $lh);
   color: $title-text-color;
   margin-bottom: 16px;
   margin-top: 0;
   text-align: center;
   font-style: normal;
-  /*font-weight: 400;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.2;*/
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
 .titel-item-link {

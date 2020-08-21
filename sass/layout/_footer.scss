@@ -13,17 +13,22 @@
   margin-right: 69px;
 }
 .logo-footer {
-  @include fonts($fw, $fs, $lh);
   color: $primary-bg-color;
   display: block;
   margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
   text-decoration: none;
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
 }
 .address-list {
   a {
-    @include fonts($fw, $fs, $lh);
+    font-weight: 400;
+
+    font-size: 14px;
+    line-height: 1.7;
     display: block;
     font-style: normal;
     letter-spacing: 0.03em;
@@ -36,8 +41,10 @@
   }
 }
 .call {
-  @include fonts($fw, $fs, $lh);
   display: block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
   margin-bottom: 20px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -89,13 +96,12 @@
   }
 }
 .form-call {
-  @include fonts($fw, $fs, $lh);
   display: block;
   margin-bottom: 20px;
   margin-left: 94px;
-  /*font-weight: 700;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 1.1;*/
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
