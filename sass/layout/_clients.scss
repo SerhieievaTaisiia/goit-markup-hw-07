@@ -7,9 +7,10 @@
   margin-top: 0;
   margin-bottom: 50px;
   font-style: normal;
-  font-weight: 700;
+  @include fonts(700, 36px, 1.2);
+  /*font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.2;*/
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -36,34 +37,24 @@
     .yaCo-icon {
       fill: $accent-color;
     }
-  }
-  &:hover {
-    border-color: $accent-color;
-  }
-  &:hover {
     .company-icon {
       fill: $accent-color;
     }
-  }
-  &:hover {
     .company2-icon {
       fill: $accent-color;
     }
-  }
-  &:hover {
     .fosterPeters-icon {
       fill: $accent-color;
     }
-  }
-  &:hover {
     .brand-icon {
       fill: $accent-color;
     }
-  }
-  &:hover {
     .companyTagLine-icon {
       fill: $accent-color;
     }
+  }
+  &:hover {
+    border-color: $accent-color;
   }
 }
 .yaCo-icon {

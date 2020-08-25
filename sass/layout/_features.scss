@@ -31,9 +31,10 @@
   @extend %feature_team_title-text-color;
   margin-bottom: 10px;
   font-style: normal;
-  font-weight: 700;
+  @include fonts(700, 14px, 1.14);
+  /*font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.14;*/
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -42,8 +43,9 @@
   margin-bottom: 0;
   color: $title-text-color;
   font-style: normal;
-  font-weight: 400;
+  @include fonts(400, 14px, 1.7);
+  /*font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.7;*/
   letter-spacing: 0.03em;
 }

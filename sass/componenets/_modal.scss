@@ -85,11 +85,11 @@
 }
 
 .form-title {
-  font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  @include fonts(700, 20px, 1.15);
+  /*font-weight: bold;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.15;*/
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 40px;
@@ -103,11 +103,12 @@
   left: 42px;
   transform: translateY(-50%);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  font-family: Roboto;
+  @include fonts(400, 14px, 1.14);
+
   font-style: normal;
-  font-weight: normal;
+  /*font-weight: normal;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;*/
   letter-spacing: 0.01em;
   color: $title-text-color;
 }
@@ -117,11 +118,11 @@
   left: 16px;
   transform: translateY(-50%);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  font-family: Roboto;
+  @include fonts(400, 14px, 1.14);
   font-style: normal;
-  font-weight: normal;
+  /*font-weight: normal;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;*/
   letter-spacing: 0.01em;
   color: $title-text-color;
 }
@@ -141,11 +142,11 @@
   color: $accent-color;
 }
 .modal-form-span {
-  font-family: Roboto;
+  @include fonts(400, 14px, 1.7);
   font-style: normal;
-  font-weight: normal;
+  /*font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;*/
   letter-spacing: 0.03em;
   color: $title-text-color;
 }
@@ -156,11 +157,11 @@
   padding-right: 55px;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: Roboto;
+  @include fonts(700, 16px, 1.85);
   font-style: normal;
-  font-weight: bold;
+  /*font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.85px;*/
   letter-spacing: 0.06em;
   background-color: $accent-color;
   color: $primary-bg-color;

@@ -16,19 +16,21 @@
   color: $primary-bg-color;
   display: block;
   margin-bottom: 20px;
-  font-weight: 700;
+  @include fonts(700, 26px, 1.19);
+  /*font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 1.19;*/
   text-decoration: none;
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
 }
 .address-list {
   a {
-    font-weight: 400;
+    @include fonts(400, 14px, 1.7);
+    /*font-weight: 400;
+     line-height: 1.7;
+    font-size: 14px;*/
 
-    font-size: 14px;
-    line-height: 1.7;
     display: block;
     font-style: normal;
     letter-spacing: 0.03em;
@@ -42,9 +44,10 @@
 }
 .call {
   display: block;
-  font-weight: 700;
+  @include fonts(700, 14px, 1.1);
+  /*font-weight: 700;
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.1;*/
   margin-bottom: 20px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -99,9 +102,10 @@
   display: block;
   margin-bottom: 20px;
   margin-left: 94px;
-  font-weight: 700;
+  @include fonts(700, 14px, 1.1);
+  /*font-weight: 700;
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.1;*/
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }

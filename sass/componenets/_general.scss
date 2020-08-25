@@ -1,13 +1,25 @@
-.team-list a,
-.clients-list a {
-  color: $title-text-color;
+.team-list,
+.clients-list {
+  a {
+    color: $title-text-color;
+  }
 }
-.team-list a:hover,
+.team-list,
+.clients-list {
+  a {
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+  }
+}
+
+/*.team-list a:hover,
 .team-list a:focus,
 .clients-list a:hover,
 .clients-list a:focus {
   color: $accent-color;
-}
+}*/
 .button-primary,
 .button-secondary {
   background-color: $accent-color;

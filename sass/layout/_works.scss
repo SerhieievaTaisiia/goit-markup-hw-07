@@ -7,9 +7,10 @@
   margin-top: 0;
   margin-bottom: 50px;
   font-style: normal;
-  font-weight: 700;
+  @include fonts(700, 36px, 1.2);
+  /*font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.2;*/
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -37,9 +38,10 @@
 .works-item {
   text-align: center;
   font-style: normal;
-  font-weight: bold;
+  @include fonts(700, 14px, 1.1);
+  /*font-weight: bold;
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.1;*/
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $primary-bg-color;
